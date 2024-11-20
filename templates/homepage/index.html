@@ -11,42 +11,17 @@
     </form>
 </section>
 <section class="row">
-    <div class="col">
+    {% for prov in providers %}
+    <div class="col-3">
         <div class="card">
-            <img class="w-100" src="https://whoofpoint.com/media/images/card_id/profile_73870520.png" 
+            <img class="w-100" src="{{ prov.photo }}" 
                 class="" alt="...">
             <div class="card-body">
-                <h4 class="card-title text-center">Juan Carlos</h3>
+                <h4 class="card-title text-center">{{ prov.first_name }} {{ prov.last_name }}</h3>
             </div>
         </div>
     </div>
-    <div class="col">
-        <div class="card">
-            <img class="w-100" src="https://whoofpoint.com/media/images/card_id/profile_73870520.png" 
-                class="" alt="...">
-            <div class="card-body">
-                <h4 class="card-title text-center">Juan Carlos</h3>
-            </div>
-        </div>
-    </div>
-    <div class="col">
-        <div class="card">
-            <img class="w-100" src="https://whoofpoint.com/media/images/card_id/profile_73870520.png" 
-                class="" alt="...">
-            <div class="card-body">
-                <h4 class="card-title text-center">Juan Carlos</h3>
-            </div>
-        </div>
-    </div>
-    <div class="col">
-        <div class="card">
-            <img class="w-100" src="https://whoofpoint.com/media/images/card_id/profile_73870520.png" 
-                class="" alt="...">
-            <div class="card-body">
-                <h4 class="card-title text-center">Juan Carlos</h3>
-            </div>
-        </div>
-    </div>
+    {% endfor %}
 </section>
 
 {% endblock %}
