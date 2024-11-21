@@ -2,6 +2,14 @@ body {}
 
 header {}
 
+header nav .navbar-brand {
+    height: 45px;
+}
+header nav .navbar-brand img {
+    width: 110px;
+    margin-top: -25px;
+}
+
 footer {
     background-color: #4A628A;
     padding-top: 24px;
@@ -10,6 +18,10 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+footer form {
+    padding: 10px 15px;
 }
 
 .container-fluid {
