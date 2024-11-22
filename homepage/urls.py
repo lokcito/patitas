@@ -8,5 +8,7 @@ urlpatterns = [
     path("sign_up", views_account.v_sign_up, name="sign_up"),
     path("sign_up/create", views_account.v_sign_up_create, name="sign_up_create"),
     path("sign_up/thank_you", views_account.v_sign_up_thank_you, name="sign_up_thank_you"),
-    
+    path("sign_in", views_account.v_sign_in, name="sign_up"),
+    path("sign_in/members", views_account.v_sign_in_members, name="sign_in_members"),
+    path("sign_in/login", views_account.v_sign_in_login, name="sign_in_login"),
 ]

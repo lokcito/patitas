@@ -12,27 +12,33 @@ def v_index(request):
             },
             {
                 "first_name": "Juan",
-                "last_name": "Ramirez"
+                "last_name": "Ramirez",
+                "photo": "https://whoofpoint.com/media/images/card_id/profile__z9pMJfk.png"
             },
             {
                 "first_name": "Maria",
-                "last_name": "Suarez"
+                "last_name": "Suarez",
+                "photo": "https://whoofpoint.com/media/images/card_id/profile__Hbemmoz.png"
             },
             {
                 "first_name": "Vanessa",
-                "last_name": "Suarez"
+                "last_name": "Suarez",
+                "photo": "https://whoofpoint.com/media/images/card_id/profile__Bxs38Zm.png"
             },
             {
                 "first_name": "Michael",
-                "last_name": "Suarez"
+                "last_name": "Suarez",
+                "photo": "https://whoofpoint.com/media/images/card_id/profile_40442120.png"
             },
             {
                 "first_name": "Ramiro",
-                "last_name": "Suarez"
+                "last_name": "Suarez",
+                "photo": "https://whoofpoint.com/media/images/card_id/profile_74944414_nzUOEwk.png"
             },
             {
                 "first_name": "Micky",
-                "last_name": "Suarez"
+                "last_name": "Suarez",
+                "photo": "https://whoofpoint.com/media/images/card_id/profile_75449101.png"
             },
         ]
     }
