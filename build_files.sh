@@ -1,5 +1,4 @@
 #!/bin/bash
-apt-get update && apt-get install -y libsqlite3-dev
 
 # Create a virtual environment
 echo "Creating a virtual environment..."

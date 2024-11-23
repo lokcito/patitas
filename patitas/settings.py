@@ -76,8 +76,12 @@ WSGI_APPLICATION = 'patitas.wsgi.app'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME':os.path.join('/tmp', 'db.sqlite3')
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'neondb',
+        'USER': 'lokcito',
+        'PASSWORD': '8UZiE3sdRrXx',
+        'HOST': 'ep-soft-mode-128163.us-east-2.aws.neon.tech',
+        'PORT': '5432',
     }
 }
 
